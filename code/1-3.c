@@ -17,7 +17,7 @@ void update_ptr(struct IPv4* s) {
 	sprintf(s->data, "update_ptr");
 }
 
-int main() {;
+int main() {
 	struct IPv4 s1 = { 0 };
 	struct IPv4 s2 = { 0 };
 	update_val(s1);
